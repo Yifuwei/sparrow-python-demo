@@ -1,0 +1,15 @@
+{
+  "container": [
+    50,
+    50,
+    143
+  ],
+  "items": 32,
+  "occupied_voxels": 124466,
+  "out_of_bounds_voxels": 0,
+  "overlapping_voxels": 0,
+  "independent_input_geometry_feasible": true,
+  "original_binvox_geometry_verified": true,
+  "density": 0.34815664335664337,
+  "final_height": 143
+}
