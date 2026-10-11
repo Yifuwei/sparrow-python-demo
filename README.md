@@ -37,7 +37,14 @@ These features describe the underlying implementation. Source code, installation
 
 This prototype is a heuristic voxel adaptation of Sparrow. It is not an exact reproduction of the original method and does not guarantee an optimal solution. Geometric checks apply to the voxel representation and its configured clearance rules. Search outcomes can depend on the time budget and run conditions.
 
-The name Sparrow refers to the method being adapted; the corresponding bibliographic reference should be added once its exact details have been verified.
+## Original Sparrow and Research Reference
+
+This prototype adapts ideas from **Sparrow**, the 2D irregular strip-packing heuristic developed by Jeroen Gardeyn and collaborators, to a 3D voxel-based setting in Python. Credit for the original Sparrow method belongs to its authors. This prototype is not an exact reproduction of their algorithm, and the original paper's performance results do not describe this implementation.
+
+- **Original repository:** [JeroenGar/sparrow](https://github.com/JeroenGar/sparrow).
+- **Paper:** Jeroen Gardeyn, Greet Vanden Berghe, and Tony Wauters. *An open-source heuristic to reboot 2D nesting research*. arXiv:2509.13329, first submitted in 2025. [Read the paper](https://arxiv.org/abs/2509.13329) · [DOI](https://doi.org/10.48550/arXiv.2509.13329).
+
+Please consult the original repository and paper for the original 2D method and its evaluation.
 
 ## Availability and Permissions
 
